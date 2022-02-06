@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SynetecAssessmentApi.Domain
+namespace SynetecAssessmentApi.Domain.Common
 {
     public abstract class Entity
     {

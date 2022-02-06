@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using SynetecAssessmentApi.Domain;
+using SynetecAssessmentApi.Domain.Model;
+using SynetecAssessmentApi.Persistence.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,7 +20,7 @@ namespace SynetecAssessmentApi.Persistence
             SeedData(context);
         }
 
-        public static void SeedData(AppDbContext context)
+        private static void SeedData(AppDbContext context)
         {
             var departments = new List<Department>
             {

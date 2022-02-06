@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using SynetecAssessmentApi.Domain;
+using SynetecAssessmentApi.Domain.Model;
 
 namespace SynetecAssessmentApi.Persistence.EntityConfiguration
 {

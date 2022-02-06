@@ -1,6 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using SynetecAssessmentApi.Domain.Common;
+using System.Collections.Generic;
 
-namespace SynetecAssessmentApi.Domain
+namespace SynetecAssessmentApi.Domain.Model
 {
     public class Department : Entity
     {

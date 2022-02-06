@@ -1,13 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30717.126
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SynetecAssessmentApi", "SynetecAssessmentApi\SynetecAssessmentApi.csproj", "{5BCB6360-6A89-4338-9863-7455B8480B20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SynetecAssessmentApi", "SynetecAssessmentApi\SynetecAssessmentApi.csproj", "{5BCB6360-6A89-4338-9863-7455B8480B20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SynetecAssessmentApi.Domain", "SynetecAssessmentApi.Domain\SynetecAssessmentApi.Domain.csproj", "{7B58C9C7-0C36-49AE-B472-ADF9C00B61D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SynetecAssessmentApi.Domain", "SynetecAssessmentApi.Domain\SynetecAssessmentApi.Domain.csproj", "{7B58C9C7-0C36-49AE-B472-ADF9C00B61D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SynetecAssessmentApi.Persistence", "SynetecAssessment.Persistence\SynetecAssessmentApi.Persistence.csproj", "{72F75F99-9031-4DD6-B646-4926BC527038}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SynetecAssessmentApi.Persistence", "SynetecAssessment.Persistence\SynetecAssessmentApi.Persistence.csproj", "{72F75F99-9031-4DD6-B646-4926BC527038}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{A39771C6-00E9-4FD2-9CF2-40DC1CE3430B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SynetecAssessmentApi.Domain.Tests", "Tests\SynetecAssessmentApi.Domain.Tests\SynetecAssessmentApi.Domain.Tests.csproj", "{5F6CDD10-F486-486F-8F24-147863D034B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SynetecAssessmentApi.Tests", "SynetecAssessmentApi.Tests\SynetecAssessmentApi.Tests.csproj", "{D19D9D67-8453-4D56-BD3C-5618063E0BA3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,9 +33,21 @@ Global
 		{72F75F99-9031-4DD6-B646-4926BC527038}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72F75F99-9031-4DD6-B646-4926BC527038}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72F75F99-9031-4DD6-B646-4926BC527038}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F6CDD10-F486-486F-8F24-147863D034B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F6CDD10-F486-486F-8F24-147863D034B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F6CDD10-F486-486F-8F24-147863D034B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F6CDD10-F486-486F-8F24-147863D034B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D19D9D67-8453-4D56-BD3C-5618063E0BA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D19D9D67-8453-4D56-BD3C-5618063E0BA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D19D9D67-8453-4D56-BD3C-5618063E0BA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D19D9D67-8453-4D56-BD3C-5618063E0BA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5F6CDD10-F486-486F-8F24-147863D034B1} = {A39771C6-00E9-4FD2-9CF2-40DC1CE3430B}
+		{D19D9D67-8453-4D56-BD3C-5618063E0BA3} = {A39771C6-00E9-4FD2-9CF2-40DC1CE3430B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {34BFE941-C9D7-4CA5-AD9D-19A169C02E4D}
